@@ -2,21 +2,52 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moje Projekty GitHub</title>
+    <title>Proste Obliczenia</title>
     <style>
-        body { font-family: sans-serif; padding: 20px; line-height: 1.6; }
-        #repo-list { list-style: none; padding: 0; }
-        .repo-item { border-bottom: 1px solid #eee; padding: 10px 0; }
-        a { color: #0366d6; text-decoration: none; font-weight: bold; }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        #wynik {
+            font-size: 2rem;
+            color: #2c3e50;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
 
-    <h1>Lista moich repozytoriów</h1>
-    <div id="loading">Ładowanie danych...</div>
-    <ul id="repo-list"></ul>
+    <div class="container">
+        <h1>Wynik działania 2 + 2 to:</h1>
+        <div id="wynik">Obliczanie...</div>
+    </div>
 
-    <script src="script.js"></script>
+    <script>
+        // Deklarujemy liczby
+        const a = 2;
+        const b = 2;
+        
+        // Wykonujemy działanie
+        const suma = a + b;
+
+        // Znajdujemy element na stronie i wstawiamy do niego wynik
+        document.getElementById('wynik').innerText = suma;
+        
+        // Dodatkowo wypiszemy to w konsoli przeglądarki (F12)
+        console.log("Wynik działania to: " + suma);
+    </script>
+
 </body>
 </html>
