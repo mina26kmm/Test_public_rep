@@ -7,7 +7,7 @@ Krl 1
 This is a basic AsciiDoc document by {author}.
 
 {author}
-
+{Krl}
 
 
 This document contains two paragraphs.
