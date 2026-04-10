@@ -1,10 +1,9 @@
 = Document Title
-:doctype: book
-
 :author: Bulka
 :reproducible:
-:krl: 1
 :toc:
+:krl: 1
+
 
 
 
