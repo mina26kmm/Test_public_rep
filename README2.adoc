@@ -1,9 +1,19 @@
 = Document Title
-Bulka
+:doctype: book
+
+:author: Bulka
 :reproducible:
 :krl: 1
 
 This is a basic AsciiDoc document by {author}.
+
+:toc:
+
+== Chapter A
+
+== Chapter B
+
+
 
 {author}
 {krl}
