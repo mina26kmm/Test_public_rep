@@ -1,13 +1,12 @@
 = Document Title
 Bulka
 :reproducible:
-Krl 1
-:reproducible:
+:krl: 1
 
 This is a basic AsciiDoc document by {author}.
 
 {author}
-{Krl}
+{krl}
 
 
 This document contains two paragraphs.
