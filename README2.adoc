@@ -1,5 +1,5 @@
 = Document Title
-Author Name
+Bulka
 :reproducible:
 
 This is a basic AsciiDoc document by {author}.
