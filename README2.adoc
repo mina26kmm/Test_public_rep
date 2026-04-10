@@ -4,6 +4,8 @@ Bulka
 
 This is a basic AsciiDoc document by {author}.
 
+{author}
+
 This document contains two paragraphs.
 It also has a header that specifies the document title and some attibutes.
 
